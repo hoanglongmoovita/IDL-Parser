@@ -843,10 +843,6 @@ public class Context
 
     public String removeEscapeCharacter(String id)
     {
-        if (id.startsWith("_")) // Escaped identifier?
-        {
-            id = id.substring(1);
-        }
         return id;
     }
 
